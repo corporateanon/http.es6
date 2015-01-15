@@ -65,7 +65,9 @@ function buildQuery(queryBindings, queryDefaults, params) {
     query[key] = value;
   }
   for (let key of queryBindings) {
-    query[key] = params[key];
+    if(key in params) {
+      query[key] = params[key];
+    }
   }
   return query;
 }
