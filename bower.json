@@ -1,0 +1,20 @@
+{
+  "name": "http.es6",
+  "version": "0.0.0",
+  "homepage": "https://github.com/corporateanon/http.es6",
+  "authors": [
+    "corporateanon <corporateanon@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "axios": "~0.4.2"
+  }
+}
