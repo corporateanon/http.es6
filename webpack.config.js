@@ -5,7 +5,7 @@ module.exports = {
   },
   module: {
     loaders: [{
-      test: /test(\/|\\).+\.js|\.es6\/\w+\.js$/,
+      test: /test(\/|\\).+\.js|\.es6(\/|\\)\w+\.js$/,
       loader: 'traceur',
       query: {
         runtime: true,
